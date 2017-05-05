@@ -15,13 +15,13 @@ namespace ISINC_Project.Models
         public int ID {get; set;}
 
         [Required]
-        public String Name { get; set; }
+        public string Name { get; set; }
         [Required]
         public decimal Price { get; set;}
         [Required]
-        public String Description { get; set; }
+        public string Description { get; set; }
 
-        public virtual IQueryable<Review> Reviews { get; set; }
+        //public virtual IQueryable<Review> Reviews { get; set; }
 
 
 
