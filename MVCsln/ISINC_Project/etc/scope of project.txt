@@ -1,0 +1,7 @@
+Scope 
+
+Product Review Project 
+
+1. Product List > product detail > reviews 
+2. Reviews > List > Add review
+3. Person Controller > 
