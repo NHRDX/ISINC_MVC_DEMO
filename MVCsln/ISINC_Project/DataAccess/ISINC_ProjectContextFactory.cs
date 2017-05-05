@@ -1,15 +1,16 @@
-﻿using System;
+﻿using ISINC_Project.DataAccess;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace ISINC_Project.DataAccess
+namespace Socrates.DataAccess
 {
-    public static class ISINC_ProjectContextFactory
+    public static class SocratesContextFactory
     {
         public static IISINC_ProjectContext GetContext(string connStr, bool useProxies = true)
         {
-            return new ISINC_ProjectContext(connStr, useProxies);
+            return new SocratesContext(connStr, useProxies);
         }
     }
 }
