@@ -142,8 +142,6 @@
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\ReviewController.cs" />
     <Compile Include="DataAccess\IISINC_ProjectContext.cs" />
-    <Compile Include="DataAccess\Product.cs" />
-    <Compile Include="DataAccess\Review.cs" />
     <Compile Include="DataAccess\ISINC_ProjectContext.cs" />
     <Compile Include="DataAccess\ISINC_ProjectContextFactory.cs" />
     <Compile Include="Global.asax.cs">
@@ -191,6 +189,8 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Product\Index.cshtml" />
     <Content Include="Views\Review\Edit.cshtml" />
+    <Content Include="Views\Product\Details.cshtml" />
+    <Content Include="Views\Product\Edit.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
