@@ -15,24 +15,23 @@ namespace ISINC_Project.Controllers
         {
             //IEnumerable< Product pr> = null;
 
-            IEnumerable<Product> Inventory;
+            IEnumerable<ISINC_Project.Models.Product> Inventory;
 
-            Product prod1 = new Product();
+            ISINC_Project.Models.Product prod1 = new Product();
             prod1.ID = 1;
             prod1.Name = "Airplane";
             prod1.Price = 49.99M;
             prod1.Description = "It just flies";
 
 
-            Product prod2 = new Product();
+            ISINC_Project.Models.Product prod2 = new Product();
             prod2.ID = 1;
             prod2.Name = "Boat";
             prod2.Price = 39.99M;
             prod2.Description = "It just floats";
-            
-
 
             
+
             //IEnumerable{ prod1; prod2 };
 
 
