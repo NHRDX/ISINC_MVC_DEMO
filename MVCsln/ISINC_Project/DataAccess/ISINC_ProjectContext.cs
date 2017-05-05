@@ -5,6 +5,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
+
 namespace ISINC_Project.DataAccess
 {
     public class ISINC_ProjectContext : DbContext, IISINC_ProjectContext

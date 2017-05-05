@@ -1,12 +1,12 @@
-﻿using ISINC_Project.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using ISINC_Project.Models;
 
 namespace ISINC_Project.DataAccess
 {
-    public interface IProductDBContext
+    public interface IISINC_ProjectContext
     {
         IQueryable<Product> GetAllProducts();
         IQueryable<Review> GetAllReviews();
