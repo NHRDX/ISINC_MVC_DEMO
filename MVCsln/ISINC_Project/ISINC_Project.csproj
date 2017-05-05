@@ -142,8 +142,6 @@
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\ReviewController.cs" />
     <Compile Include="DataAccess\IISINC_ProjectContext.cs" />
-    <Compile Include="DataAccess\Product.cs" />
-    <Compile Include="DataAccess\Review.cs" />
     <Compile Include="DataAccess\ISINC_ProjectContext.cs" />
     <Compile Include="DataAccess\ISINC_ProjectContextFactory.cs" />
     <Compile Include="Global.asax.cs">

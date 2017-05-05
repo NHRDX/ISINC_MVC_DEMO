@@ -12,9 +12,15 @@ namespace ISINC_Project.Controllers
         // GET: Product
         public ActionResult Index()
         {
+            //var IEnumerable<Product> = { }
+
+
 
 
            // var IEnumerable<Product> = null;
+           //create a collection of products 
+           //... IEn
+           //return it w the View method below
             return View( );
         }
     }

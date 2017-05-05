@@ -16,6 +16,11 @@ namespace Socrates.DataAccess
             Configuration.ProxyCreationEnabled = useProxies;
         }
 
+        public SocratesContext()
+        {
+
+        }
+
         public DbSet<Review> Reviews { get; set; }
     
         public DbSet<Product> Products { get; set; }
